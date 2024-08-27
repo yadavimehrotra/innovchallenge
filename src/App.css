@@ -1,0 +1,122 @@
+.App {
+  text-align: center;
+  background-color: black;
+  color: aliceblue;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+
+  height: 60px;
+
+  padding-inline: 40px;
+}
+
+.rside-nav {
+  display: flex;
+}
+
+.lside-main {
+  padding-inline: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.nav-text {
+  margin: 20px;
+  color: black;
+}
+.logo {
+  background-color: #fffbce;
+
+  /* border-radius: 50%; */
+  height: 50px;
+  width: 100px;
+  border: none;
+  cursor: pointer;
+}
+.logo:hover {
+  background-color: #fffbce;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-inline: 10%;
+}
+.name {
+  text-align: left;
+}
+
+.name-text {
+  text-align: left;
+}
+.btn {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  margin-block: 20px;
+}
+
+.learn-more {
+  width: 200px;
+  height: 50px;
+  background-color: aliceblue;
+  color: black;
+  border-radius: 10px;
+  border-style: none;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.learn-more:hover {
+}
+
+.imgone {
+  /* height: 500px; */
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin: 50px;
+}
+
+.imgone1 {
+  /* height: 500px; */
+  width: 500px;
+  background: transparent;
+}
+.about {
+  display: flex;
+}
+
+.logo2 {
+  margin: 35px;
+}
+
+.texta {
+  margin-inline: 20%;
+  text-align: justify;
+}
+
+.services {
+  display: flex;
+}
+
+.kit {
+  margin-inline: 20%;
+}
+
+.contact {
+  display: flex;
+}
